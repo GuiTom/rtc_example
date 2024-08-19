@@ -31,11 +31,10 @@
 <script setup>
 import { ref } from "vue"
 
-const appId = ref("")
-const token = ref("")
-const channel = ref("")
+const appId = ref("0a3d1efd4a7d4ed4a057a0ee869cfcfb")
+const token = ref("007eJxTYLhtE3FusXOfJ2fo06VWy/fqpk+YcuV+9IabX5S6Fv6T01uvwGCQaJximJqWYpJonmKSCqQMTM0TDVJTLcwsk9OS05Js3x5KawhkZGi3/sDIyACBID4HQ0F5YnxJanEJAwMAjDokQg==")
+const channel = ref("pwa_test")
 const uid = ref("")
-
 
 defineExpose({
   getValue: () => ({
